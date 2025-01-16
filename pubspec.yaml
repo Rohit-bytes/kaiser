@@ -41,7 +41,9 @@ dev_dependencies:
   get: ^4.3.8
   animated_text_kit: ^4.2.1
   google_fonts: ^6.2.1
-
+  http: ^1.2.2
+  built_value: ^8.9.3
+  built_collection: ^5.1.1
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your

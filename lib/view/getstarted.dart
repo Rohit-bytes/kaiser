@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:kaiser/auth/login.dart';
+import 'package:kaiser/view/auth/login.dart';
 
 class Homepage extends StatelessWidget {
   const Homepage({super.key});
@@ -9,6 +9,7 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       body: Stack(
         children: [
           Container(
@@ -18,7 +19,7 @@ class Homepage extends StatelessWidget {
                     'https://i.pinimg.com/736x/e3/e4/16/e3e4169858dbb41f0b0743e8f4a588cc.jpg'),
                 fit: BoxFit.cover,
                 // colorFilter: ColorFilter.linearToSrgbGamma(),
-               
+               opacity: 0.40,
               ),
             ),
           ),
@@ -39,11 +40,11 @@ class Homepage extends StatelessWidget {
                 ),
                 Text(
                   'The best Streaming anime app of the',
-                  style: GoogleFonts.lateef(
+                  style: GoogleFonts.poppins(
                     textStyle: TextStyle(
-                      fontSize: 18,
+                      fontSize: 14,
                       color: Colors.white,
-                      fontWeight: FontWeight.w700,
+                      fontWeight: FontWeight.w600,
                     ),
                   ),
 
@@ -51,11 +52,11 @@ class Homepage extends StatelessWidget {
                 ),
                    Text(
                   'century to entertain you every day',
-                  style: GoogleFonts.lateef(
+                  style: GoogleFonts.poppins(
                     textStyle: TextStyle(
-                      fontSize: 18,
+                      fontSize: 14,
                       color: Colors.white,
-                  fontWeight: FontWeight.w700,
+                  fontWeight: FontWeight.w600,
                     ),
                   ),
 

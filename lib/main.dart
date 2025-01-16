@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:kaiser/homepage.dart';
-import 'package:kaiser/mysplashscreen.dart';
+import 'package:kaiser/view/getstarted.dart';
+import 'package:kaiser/view/home.dart';
+import 'package:kaiser/view/mysplashscreen.dart';
 
 
 void main(){
@@ -21,7 +22,7 @@ class _myappState extends State<myapp> {
     // TODO: implement initState
     super.initState();
     Future.delayed(Duration(seconds: 5), () {
-      Get.offAll(() => Homepage());
+      Get.offAll(() => Home());
     });
   }
   @override
